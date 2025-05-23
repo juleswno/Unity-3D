@@ -348,7 +348,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8eda7feb38b3547a4b420f96fb392a87, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  UICondition: {fileID: 0}
+  uiCondition: {fileID: 0}
   noHungerHealthDecay: 2
 --- !u!1 &209281085
 GameObject:
@@ -1803,7 +1803,7 @@ MonoBehaviour:
   curValue: 0
   startValue: 400
   maxValue: 500
-  passiveValue: -20
+  passiveValue: 20
   uiBar: {fileID: 209281087}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
