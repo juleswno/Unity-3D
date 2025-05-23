@@ -137,6 +137,7 @@ GameObject:
   - component: {fileID: 122428068}
   - component: {fileID: 122428070}
   - component: {fileID: 122428069}
+  - component: {fileID: 122428071}
   m_Layer: 6
   m_Name: Player
   m_TagString: Untagged
@@ -334,6 +335,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controller: {fileID: 0}
+  Condition: {fileID: 0}
+--- !u!114 &122428071
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 122428064}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8eda7feb38b3547a4b420f96fb392a87, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UICondition: {fileID: 0}
+  noHungerHealthDecay: 2
 --- !u!1 &209281085
 GameObject:
   m_ObjectHideFlags: 0
@@ -562,6 +578,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec125dc98b67844aabf0a60978c985ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  health: {fileID: 790507839}
+  hunger: {fileID: 2041382770}
+  stamina: {fileID: 1215996372}
 --- !u!1 &790507835
 GameObject:
   m_ObjectHideFlags: 0
