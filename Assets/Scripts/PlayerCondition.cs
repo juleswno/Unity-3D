@@ -24,7 +24,7 @@ public class PlayerCondition : MonoBehaviour
     public float noHungerHealthDecay;
     void Update()
     {
-        hunger.Add(hunger.passiveValue * Time.deltaTime);
+        hunger.Subtract(hunger.passiveValue * Time.deltaTime);
         stamina.Add(stamina.passiveValue * Time.deltaTime);
 
         if (hunger.curValue <= 0f)
